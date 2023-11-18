@@ -1,6 +1,7 @@
 # IMD-gridded-data-download-at-daily-8days-and-monthly-interval-in-tif-format
 IMD Weather Data Downloader:
 This repository contains Python code for downloading open acess Indian Meteorological Department (IMD) weather data for the Indian region. The script fetches Rainfall, Tmin (Minimum Temperature), and Tmax (Maximum Temperature) data at different temporal resolutions and spatial resolutions.
+certain portion of the code is directly taken from IMDLIB python libaray and further developed to retrive data in geotiff format.
 
 Data Features:
 Rainfall data is available at daily, 8-days, and monthly intervals.
