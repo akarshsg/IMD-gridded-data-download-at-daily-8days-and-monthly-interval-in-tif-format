@@ -4,13 +4,19 @@ This repository contains Python code for downloading open acess Indian Meteorolo
 certain portion of the code is directly taken from IMDLIB python libaray and further developed to retrive data in geotiff format.
 
 Data Features:
-Rainfall data is available at daily, 8-days, and monthly intervals.
+Data is generated at daily, 8-days and monthly intervals using this code. (Incase of 8 days and monthly, sum for (Rainfall) and mean for Tmin and Tmax were used)
 Spatial resolution for Rainfall: 0.25 degrees.
 Spatial resolution for Tmax and Tmin: 1 degree.
 
 Usage:
 Clone the repository.
 Run the Python script to download the desired weather data.
+
+Naming convention used:
+Daily files: IMDTmin_yyyy-mm-dd eg: IMDTmin_2000-01-01.tif
+8 days files 
+
+
 
 Dependencies:
 Python
